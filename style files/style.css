@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.noor-header{
+    background-color: #173072;
+    padding: 0.1rem 1rem;
+    /* 02091C */
+}
+
+
+.noor-header .navbar-nav .nav-item .nav-link{
+    color: #fff!important;
+}
+.navbar-brand{
+    color: #FFAB01;
+    font-family: exo;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.navbar-brand:hover{
+
+    color: #FFAB01;
+}
+
+.home-container{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(23,48,114,0.9),rgba(23,48,114,0.8),rgba(23,48,114,0.7),rgba(23,48,114,0.6),rgba(23,48,114,0.5)),
+    url('../images/home-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.inner-home-title{
+    
+    padding-top: 250px;
+    text-align: center;
+}
+
+.inner-home-title p{
+    color: #fff;
+    font-family: verdana;
+    font-size: 26px;
+}
+.home-title{
+    color:#fff;
+    font-family: aero;
+    font-size: 45px;
+   
+
+}
+.home-title span{
+    color:#FFAB01;
+}
+/* Services Container */
+
+.services,.recent-courses,.our-team{
+    min-height: 80vh;
+    padding-top: 30px;
+    background-color: whitesmoke;
+}
+
+.services .container h3,.recent-courses .container h3{
+    padding: 40px;
+    text-transform:  uppercase;
+    font-family: verdana;
+    font-size: 32px;
+}
+.nav-tabs .nav-item{
+    text-align: center;
+}
+.nav-tabs .nav-item  .nav-link{
+    color: #173072;
+    font-size: 18px;
+    font-family: verdana;
+}
+.nav-tabs .nav-item .nav-link img{
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+.nav-tabs{
+    border:none!important;
+}
+
+.services-row{
+    border: 1px solid rgba(0,0,0,0.09);
+    border-radius: 8px;
+}
+
+.services-row .services-title{
+    font-family: verdana;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.services-row .card-header{
+    text-align:center;
+}
+
+
+/* Recent Courses style Area 
+NOTE: the style of .recent-courses and title is mentioned above */
+.recent-courses .container .card{
+    margin-bottom: 20px;
+}
+.recent-courses .container .card .card-header{
+    text-align: center;
+}
+.recent-courses .container .card .card-body{
+    padding:0;
+}
+.recent-courses .container .card .card-body img{
+    width: 100%;
+}
+/* .recent-courses .container .card .card-footer {
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+} */
+
+/* Course Registration Modal Title Style */
+#courseRegisterModal .sub-title{
+    font-size: 17px;
+    text-align: center;
+}
+/* Our Team Style */
+.our-team .container .card .card-header{
+    padding: 0;
+}
+.our-team .container .card .card-body{
+    background-color: whitesmoke;
+    font-family:times;
+}
+.our-team .container .card .card-header img{
+    width: 100%;
+    height:350px;
+}
+.our-team .container .card .card-footer{
+    background-color:rgb(100, 5, 189) ;
+    color: white;
+}
+.our-team .container .card{
+    margin-bottom: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+}
+.our-team-title{
+    padding: 40px;
+    text-transform:  uppercase;
+    font-family: verdana;
+    font-size: 32px;
+}
+.carousel-inner .carousel-item{
+    border: 2px solid black;
+    background: linear-gradient(rgba(23,48,114,0.9),rgba(23,48,114,0.8),rgba(23,48,114,0.7),rgba(23,48,114,0.6),rgba(23,48,114,0.5)),
+    url('../images/home-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.carousel-item .inner h3{
+    text-transform: capitalize;
+    color: #FFAB01;
+}
+/* contact form */
+.cantact-form .container-fluid
+{
+    height: auto;
+    background: linear-gradient(rgba(23,48,114,0.9),rgba(23,48,114,0.8),rgba(23,48,114,0.7),rgba(23,48,114,0.6),rgba(23,48,114,0.5)),
+    url('../images/home-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.cantact-form .container-fluid h3
+{
+    color: white;
+}
+.cantact-form .container-fluid h3 span
+{
+    color:#FFAB01;
+    text-transform: uppercase;
+    font-family: exo;
+    font-weight: 900;
+    font-size: 30px;
+}
+.cantact-form .container-fluid p{
+    color: #fff;
+    font-family:cursive;
+    font-size: 23px;
+}
+.cantact-form .container-fluid p a{
+    text-decoration: none;
+}
+.cantact-form .container-fluid form
+{
+    text-align: left;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+.cantact-form .container-fluid form h4
+{
+    padding: 1rem 0rem;
+    text-align: center;
+    color: #173072;
+}
+.cantact-form .container-fluid form label
+{
+    color: blue;
+    font-family:cursive;
+}
+.cantact-form .container-fluid form textarea
+{
+    resize: none;
+}
+/* contact form */
